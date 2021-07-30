@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    //border: 1px solid red;
+}
+.home-page{
+    min-width: 100%;
+    height: 100vh;
+    border: dotted #b5ceff 0.5vw;
+    /* border: 1px solid red; */
+    margin: 0vw;
+    padding: 5vw ;
+    position:relative;
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+}
+.home-page h5{
+    font-size: 35px ;
+    text-align: center;
+    color: #FF96A4;
+    margin: 0 0 .5vh 0;
+}
+.home-page label{
+    font-size: 35px ;
+    color: #FF96A4;
+    margin: 0 0 .5vh 0;
+}
+
+.home-page input, textarea{
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0 ;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.home-page input, placeholder{
+    color: #ffcea3;
+}
+
+.home-page textarea{
+    height: 15vh;
+    color: #ffcea3;
+}
+
+.home-page placeholder{
+    height: 15vh;
+    color: #ffcea3;
+}
+.submitBtn{
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem 0 1rem 52%;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 60px;
+    background-color: #FF96A4;
+    font-size: 20px;
+    color: #f8ff96;
+    position: relative;
+}
+
+.submitBtn:hover{
+    background-color: #ffcea3;
+    transition: 1s background ease;
+}
+.submitBtn{
+    margin: 1rem 0 1rem 0;
+    display: inline-block;
+}

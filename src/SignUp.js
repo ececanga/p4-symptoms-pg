@@ -2,6 +2,8 @@ import React, { useCallback } from "react";
 import { withRouter } from "react-router";
 import app from "./base";
 
+import "./Form.css"
+
 const SignUp = ({ history }) => {
   const handleSignUp = useCallback(async event => {
     event.preventDefault();
@@ -17,8 +19,8 @@ const SignUp = ({ history }) => {
   }, [history]);
 
   return (
-    <div>
-      <h1>Sign up</h1>
+      <div className={"form-box"}>
+      <h5>Sign up</h5>
       <form onSubmit={handleSignUp}>
         <label>
           Email
@@ -28,7 +30,7 @@ const SignUp = ({ history }) => {
           Password
           <input name="password" type="password" placeholder="Password" />
         </label>
-        <button type="submit">Sign Up</button>
+        <button type="submit" className="submitBtn">Sign Up</button>
       </form>
     </div>
   );
