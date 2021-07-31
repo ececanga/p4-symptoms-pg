@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     background-color: aliceblue;
-    //border: 1px solid red;
+    /*//border: 1px solid red;*/
+    text-align: left;
+}
+ul {
+    list-style: none;
 }
 .home-page{
     min-width: 100%;
